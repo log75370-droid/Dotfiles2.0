@@ -1,3 +1,4 @@
+![full_screen.png] (full_screen.png)
 HI you needed packages
 #########
 PACMAN
