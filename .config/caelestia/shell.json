@@ -1,0 +1,69 @@
+{
+    "appearance": {
+        "anim": {
+            "durations": {
+                "scale": 0.5421539535302594
+            }
+        },
+        "transparency": {
+            "base": 1,
+            "enabled": false,
+            "layers": 1
+        }
+    },
+    "background": {
+        "desktopClock": {
+            "background": {
+                "enabled": true,
+                "opacity": 1
+            },
+            "enabled": false
+        },
+        "enabled": true,
+        "wallpaperEnabled": false
+    },
+    "bar": {
+        "activeWindow": {
+            "compact": true,
+            "inverted": false
+        },
+        "clock": {
+            "background": false,
+            "showDate": true,
+            "showIcon": true
+        },
+        "excludedScreens": [
+        ],
+        "persistent": true,
+        "popouts": {
+            "activeWindow": false,
+            "statusIcons": true,
+            "tray": true
+        },
+        "showOnHover": true,
+        "status": {
+            "showAudio": false
+        },
+        "workspaces": {
+            "activeIndicator": true,
+            "occupiedBg": false,
+            "perMonitorWorkspaces": false,
+            "showWindows": true
+        }
+    },
+    "border": {
+        "rounding": 17,
+        "thickness": 2
+    },
+    "services": {
+        "lyricsBackend": "NetEase",
+        "showLyrics": true
+    },
+    "utilities": {
+        "toasts": {
+            "capsLockChanged": false,
+            "kbLayoutChanged": false,
+            "nowPlaying": true
+        }
+    }
+}

@@ -1,0 +1,53 @@
+[window]
+padding = { x = 12, y = 12 }
+dynamic_title = true
+opacity = 1
+[cursor]
+style = { shape = "Beam", blinking = "On" }
+
+[font]
+size = 11.0
+normal = { family = "JetBrainsMono NF", style = "Regular" }
+
+[colors.primary]
+background = '#181516'    # Глубокий темный (Noir) с легким винным отливом
+foreground = '#E5D4D6'    # Мягкий пастельно-белый с розовым оттенком
+bright_foreground = '#F7E7E9'
+
+[colors.cursor]
+text = '#181516'
+cursor = '#E297A1'        # Элегантный розовый курсор (Rose)
+
+[colors.selection]
+text = '#181516'
+background = '#4A3538'    # Приглушенный темно-бордовый для выделения текста
+
+[colors.normal]
+black = '#261F21'
+red = '#C35A6B'
+green = '#6B8F71'
+yellow = '#D4A373'
+blue = '#7D9BB2'
+magenta = '#E297A1'      # Основной акцентный розовый
+cyan = '#8CBDBA'
+white = '#E5D4D6'
+
+[colors.bright]
+black = '#3D3134'
+red = '#D97384'
+green = '#82A388'
+yellow = '#E6B88A'
+blue = '#93AFC4'
+magenta = '#F3B0BA'      # Яркий неоново-розовый для подсветки
+cyan = '#A1D0CC'
+white = '#F7E7E9'
+
+[colors.dim]
+black = '#1F191A'
+red = '#994452'
+green = '#547059'
+yellow = '#A87F58'
+blue = '#5F798C'
+magenta = '#B3747E'
+cyan = '#6D9694'
+white = '#B3A4A6'

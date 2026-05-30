@@ -1,0 +1,56 @@
+* {
+    bg:          #0d0d0d;
+    bg-alt:      #1a1a1a;
+    fg:          #e5e5e5;
+    red:         #cc241d;
+    accent:      #ff3333;
+
+    background-color:   transparent;
+    text-color:         @fg;
+}
+
+window {
+    background-color:   @bg;
+    border:            2px;
+    border-color:      @red;
+    border-radius:     6px;
+    width:             500px;
+    padding:           20px;
+}
+
+inputbar {
+    children:           [ prompt, entry ];
+    background-color:   @bg-alt;
+    border-radius:     4px;
+    padding:           8px;
+    margin:            0px 0px 10px 0px;
+}
+
+prompt {
+    text-color:         @accent;
+    margin:            0px 10px 0px 0px;
+}
+
+entry {
+    text-color:         @fg;
+}
+
+listview {
+    lines:              8;
+    columns:            1;
+    fixed-height:       true;
+}
+
+element {
+    padding:           8px;
+    border-radius:     4px;
+}
+
+element selected {
+    background-color:   @red;
+    text-color:         @bg;
+}
+
+element-text {
+    text-color:         inherit;
+}
